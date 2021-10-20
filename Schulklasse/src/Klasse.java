@@ -1,15 +1,15 @@
 public class Klasse {
-    String _klassenlehrer;
+    String _klasse;
 
-    public void setKlassenlehrer(String klassenlehrer) {
-        this._klassenlehrer = klassenlehrer;
+    public void setKlasse(String klasse) {
+        this._klasse = klasse;
     }
-    public String getKlassenlehrer() {
-        return _klassenlehrer;
+    public String getKlasse() {
+        return _klasse;
     }
 
-    public Klasse(String klassenlehrer){
-        this.setKlassenlehrer(klassenlehrer);
+    public Klasse(String klasse){
+        this.setKlasse(klasse);
     }
     
 }

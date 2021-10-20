@@ -8,7 +8,7 @@ public class Menu {
         }
         for (Klasse klasse: App.getAllKlassenlehrer()){
             if (klasse != null){
-                System.out.println(klasse.getKlassenlehrer());
+                System.out.println(klasse.getKlasse());
             }
         }
     }

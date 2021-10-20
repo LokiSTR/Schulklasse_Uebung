@@ -7,6 +7,7 @@ public class App {
 
         _schueler = new Schueler[20];
         _schueler[0] = new Schueler("Hans", "FLammenwerfer");
+        _schueler[1] = new Schueler("Hans 2", "Spast");
 
         _klassenlehrer = new Klasse[10];
         _klassenlehrer[0] = new Klasse("Herr Schmidt");
